@@ -1,0 +1,2 @@
+D:/Luciano/ARQ/Pruebas/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/home/zalza13/Descargas/Pruebas/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache

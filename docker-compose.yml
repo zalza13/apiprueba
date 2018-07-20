@@ -1,0 +1,20 @@
+version: '3.6'
+
+services:
+#  prueba1.api:
+#      image: webapi/prueba1.api:${TAG:-latest}
+#      build:
+#        context: ./src/Prueba1.API/
+#        dockerfile: Dockerfile
+
+  prueba1.api:
+      image: webapi/prueba1.api:${TAG:-latest}
+      build:
+        context: ./src/Prueba1.API/
+        dockerfile: Infraestructura/Dockerfile
+
+  prueba2.api:
+      image: webapi/prueba2.api:${TAG:-latest}
+      build:
+        context: ./src/Prueba2.API/
+        dockerfile: Dockerfile
