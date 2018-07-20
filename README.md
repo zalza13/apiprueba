@@ -16,6 +16,11 @@ cd apiprueba
 sudo docker-compose up
 ```
 
+#### Para probar que se esta ejecutando correctmente hay que testear en el browser los siguientes links
+
+[WebApi 1](http://localhost:5000/api/values)
+[WebApi 2](http://localhost:5001/api/values)
+
 ### Generar las imagenes de forma independiente
 
 ##### API 1
