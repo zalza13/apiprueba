@@ -13,7 +13,7 @@ Este proyecto contiene dos apis web que se ejecutan mediante el comando docker-c
 
 ```
 cd apiprueba
-docker-compose up
+sudo docker-compose up
 ```
 
 ### Generar las imagenes de forma independiente
@@ -21,13 +21,13 @@ docker-compose up
 ##### API 1
 ```
 cd apiprueba/src/Prueba1.API
-docker build -t webapi/prueba1:v1 -f ./Infraestructura/Dockerfile .
-docker run -d -p 15000:80 --name=webapi1 webapi/prueba1:v1
+sudo docker build -t webapi/prueba1:v1 -f ./Infraestructura/Dockerfile .
+sudo docker run -d -p 15000:80 --name=webapi1 webapi/prueba1:v1
 ```
 
 ##### API 2
 ```
 cd apiprueba/src/Prueba2.API
-docker build -t webapi/prueba2:v1 -f ./Infraestructura/Dockerfile .
-docker run -d -p 15001:80 --name=webapi2 webapi/prueba1:v1
+sudo docker build -t webapi/prueba2:v1 -f ./Infraestructura/Dockerfile .
+sudo docker run -d -p 15001:80 --name=webapi2 webapi/prueba1:v1
 ```
