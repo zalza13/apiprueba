@@ -13,12 +13,13 @@ Este proyecto contiene dos apis web que se ejecutan mediante el comando docker-c
 
 ```
 cd apiprueba
-sudo docker-compose up
+sudo docker-compose -f docker-compose.linux.yml -f docker-compose.override.yml up
 ```
 
 #### Para probar que se esta ejecutando correctmente hay que testear en el browser los siguientes links
 
 [WebApi 1](http://localhost:5000/api/values)
+
 [WebApi 2](http://localhost:5001/api/values)
 
 ### Generar las imagenes de forma independiente
